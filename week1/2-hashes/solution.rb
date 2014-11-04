@@ -31,6 +31,3 @@ class Hash
     merge!(hash) { |key, value1, value2| value1 }
   end
 end
-
-
-p ({a: 1, b: 2, c: 3}.pick(:a, :b))

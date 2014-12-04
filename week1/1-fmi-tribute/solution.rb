@@ -17,5 +17,3 @@ class Array
     end
   end
 end
-
-p ["abc anegdot", "bca abc"].index_by { |name| name.split(' ').last }
